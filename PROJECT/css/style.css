@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+}
+.navmenu{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    color:rgba(1, 0, 3, 0.349) ;
+    font-weight: 500;
+    background-color:rgb(50, 192, 228);
+}
+h1{
+    color: blue;
+    text-align: center;
+    word-spacing: 3px;
+    text-shadow: 1.5px 1.5px black;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.informations{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: red;
+}
+.list{
+    color: black;
+    flex-direction: row;
+    list-style: none;
+}
+.login{
+    color: black;
+    margin-top: 20px;
+}
+.contact{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.img{
+    width: 400px;
+}
+@media screen and (max-width: 800px) {
+header {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+body{
+    background-color: black;
+}
+.login{
+    color: red;
+}
+footer{
+    color: red;
+    display: flex;
+
+}
+.list{
+    color: blue;
+    flex-direction: row;
+    
+}
+}
